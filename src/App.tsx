@@ -20,8 +20,8 @@ export function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const api = axios.create({
-    baseURL: 'http://localhost:3333',
-  });
+  baseURL: 'https://finance-api-ixfk.onrender.com',
+});
 
   function formatCurrency(value: number) {
     return new Intl.NumberFormat('pt-BR', {
