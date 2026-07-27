@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #5429cc;
+  --color-brand-green: #33cc95;
+  --color-brand-red: #e52e4d;
+  --color-brand-dark: #121214;
+  --color-brand-dark-light: #202024;
+  --color-brand-text-title: #f0f2f5;
+  --color-brand-text-body: #a8a8b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
