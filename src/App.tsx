@@ -1,4 +1,4 @@
-import { useEffect, useState, FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import axios from 'axios';
 import { ArrowUpCircle, ArrowDownCircle, DollarSign, PlusCircle, Trash2, X } from 'lucide-react';
 
